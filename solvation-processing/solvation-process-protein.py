@@ -1,7 +1,12 @@
+################################################################################
+# A script that produces a VMD script that can be run to prep a protein
+# solvated in a water box for a NAMD simulation. Pipe the output to a
+# file, then run as `vmd -dispdev text -e {scriptname}
+################################################################################
+
 import argparse
 import subprocess
 from string import Template
-
 
 parser = argparse.ArgumentParser(description="Process a pdb file for dynamics simulation in a water box")
 
