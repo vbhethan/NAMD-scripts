@@ -1,4 +1,4 @@
-%Vignesh's NAMD scripts
+# Vignesh's NAMD scripts
 
 Keeping track of my NAMD scripts
 
